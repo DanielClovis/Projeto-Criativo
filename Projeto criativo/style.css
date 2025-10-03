@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-family: "Source Sans 3", sans-serif;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --bg-color: #1e1e1e;
+    --bg-text: white;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+
+    & .nav{
+        display: flex;
+        gap: 50px;
+
+        & .active{
+            color: black;
+            font-weight: 600;
+        }
+
+        & .prt{
+            color: #6B7280;
+            font-weight: 400;
+        }
+
+        & .abt{
+            color: #6B7280;
+            font-weight: 400;
+        }
+
+
+        & .gnt{
+            background-color: #1F1F39;
+            color: #FFFFFF;
+            font-weight: 700;
+            padding: 35px;
+            height: 13px;
+
+        }
+    }
+}
